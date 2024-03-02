@@ -17,9 +17,6 @@ kavish_encoding = face_recognition.face_encodings(kavish_image)[0]
 harsh_image = face_recognition.load_image_file("photos/harsh.jpg")
 harsh_encoding = face_recognition.face_encodings(harsh_image)[0]
 
-lakshika_image = face_recognition.load_image_file("photos/lakshika.jpg")
-lakshika_encoding = face_recognition.face_encodings(lakshika_image)[0]
-
 neeraj_image = face_recognition.load_image_file("photos/neeraj.jpg")
 neeraj_encoding = face_recognition.face_encodings(neeraj_image)[0]
 
@@ -28,7 +25,6 @@ lokesh_encoding = face_recognition.face_encodings(lokesh_image)[0]
 
 known_face_encoding = [
     kavish_encoding,
-    lakshika_encoding,
     harsh_encoding,
     neeraj_encoding,
     lokesh_encoding
@@ -36,7 +32,6 @@ known_face_encoding = [
 
 known_faces_names = [
     "harsh",
-    "lakshika",
     "kavish",
     "neeraj",
     "lokesh"
